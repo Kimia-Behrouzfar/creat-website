@@ -1,0 +1,56 @@
+.header{
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+}
+
+.section{
+    width: 70em;
+    height: 12em;
+    margin: 0 auto;
+   padding-top: 5px;
+   padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+.section div{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: gray;
+    text-align: center;
+    align-items: center;
+    font-size: 10px;
+
+}
+
+
+
+.section div img{
+    width: 80px;
+    
+}
+.table{
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 60%;
+    height: 10%;
+    border-radius: 8px;
+}
+
+.table tr{
+    border: 1px solid black;
+    
+}
+
+.table td{
+    border: 1px solid black;
+    
+}
+
+
+
